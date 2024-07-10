@@ -1,0 +1,307 @@
+/* common css */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* common css */
+
+
+/*============================ navbar start ============================*/
+.navbar .navbar-brand img {
+	width: 120px;
+}
+
+/*============================ navbar end ============================*/
+
+/*============================ hero start ============================*/
+/* .owl carousal slider */
+/* animation */
+.animated {
+	-webkit-animation-duration: 1000 ms;
+	animation-duration: 1000 ms;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.owl-animated-out {
+	z-index: 1
+}
+
+.owl-animated-in {
+	z-index: 0
+}
+
+.fadeOut {
+	-webkit-animation-name: fadeOut;
+	animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+/* slider */
+.owl-carousel {
+	position: relative;
+}
+
+.owl-theme .owl-dots {
+	position: absolute;
+	bottom: 20px;
+	color: white;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* .owl carousal slider */
+
+
+
+.hero-bg .owl-carousel .item img {
+	height: 90vh;
+	width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.hero-bg .owl-carousel .item img {
+		height: 70vh;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.hero-bg .owl-carousel .item img {
+		height: 65vh;
+	}
+}
+
+
+/*============================ hero start ============================*/
+
+/*============================ about start ============================*/
+
+.about-bg img {
+	width: 100%;
+	height: 65vh;
+}
+
+@media only screen and (max-width: 1200px) {
+	.about-bg img {
+		height: 80vh;
+	}
+}
+
+/*============================ about end ============================*/
+
+/*============================ why choose us start ============================*/
+.why-choose-us {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/whychoose-us.jpg');
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.why-choose-us .why-choose-us-column {
+	/*	height: 75vh;*/
+	background-color: rgb(242, 242, 242, 0.9);
+}
+
+@media only screen and (max-width: 575px) {
+	.why-choose-us .why-choose-us-column {
+		background-color: rgb(242, 242, 242, 0.7);
+	}
+}
+
+/*============================ why choose us end ============================*/
+
+/*======================= our department start =======================*/
+.our-gallery-bg img {
+	width: 100%;
+	height: 31vh;
+}
+
+.nav-tabs {
+	--bs-nav-tabs-border-width: 0;
+	--bs-nav-tabs-border-color: 0;
+	--bs-nav-tabs-border-radius: var(--bs-border-radius);
+	--bs-nav-tabs-link-active-color: var(--bs-emphasis-color);
+	--bs-nav-tabs-link-active-bg: var(--bs-body-bg);
+	--bs-nav-tabs-link-active-border-color: 0;
+}
+
+.nav-tabs .nav-item {
+	margin: 0 10px;
+}
+
+.nav-tabs .nav-item .nav-link {
+	padding: 0;
+	color: rgb(153, 153, 153);
+}
+
+.nav-tabs .nav-item .nav-link.active {
+	border-bottom: 2px solid black;
+	color: black;
+}
+
+/*======================= our department end =======================*/
+
+
+/*======================= our Teachers start =======================*/
+.our-teacher-bg img {
+	height: 38vh;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+	background: black;
+	color: white;
+	border-radius: 5px;
+	padding: 0 10px 5px 10px;
+}
+
+/*======================= our Teachers end =======================*/
+
+/*======================= recent news start =======================*/
+.recent-news-bg .more-news {
+	font-size: 12px;
+}
+
+.recent-news-bg img {
+	height: 40vh;
+}
+
+.recent-news-bg .title {
+	font-size: 20px;
+}
+
+/*======================= recent news end =======================*/
+
+
+/*======================= footer start =======================*/
+.footer-bg {
+	background-color: rgb(38, 38, 38);
+}
+
+.footer-bg img {
+	width: 150px;
+}
+
+/*======================= footer start =======================*/
+
+
+/*=============================about page start=============================*/
+/*=======================about area start=======================*/
+.about-page-bg img {
+	width: 70%;
+	/* height: 20vh; */
+}
+
+@media only screen and (max-width: 768px) {
+	.about-page-bg img {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.about-page-bg img {
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.about-page-bg img {
+		width: 95%;
+	}
+}
+
+/*=======================about area end=======================*/
+/*=============================about page end=============================*/
+
+/*=============================teachers page start=============================*/
+/*=======================teachers area start=======================*/
+.contact-page-bg img {
+	width: 100%;
+	height: 35vh;
+}
+
+/*=======================teachers area end=======================*/
+/*=============================teachers page start=============================*/
+
+
+.news-show-page-bg img {
+	height: 60vh;
+}
+
+
+.contact-page-bg img {
+	height: 35vh;
+}
+
+
+/* ==================teacher page start================== */
+.teachers-info img {
+	height: 38vh;
+	width: 100%;
+}
+
+@media only screen and (max-width: 575px) {
+	.teachers-info .teachers-info-column {
+		padding: 0 5rem;
+	}
+
+	.teachers-info img {
+		height: 33vh;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.teachers-info .teachers-info-column {
+		padding: 0 3rem;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.teachers-info .teachers-info-column {
+		padding: 0 1rem;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.teachers-info .teachers-info-column {
+		padding: 0 0;
+	}
+}
+
+.teacherPagination nav .pagination {
+	display: flex;
+	justify-content: space-between;
+	--bs-pagination-border-radius: 5px;
+}
+.teacherPagination nav .page-link {
+	background-color: #262626;
+	color: white;
+	border-radius: 5px;
+}
+.teacherPagination nav .page-item.disabled .page-link {
+	background-color: #6c6c6c;
+	color: white;
+}
+
+/* ==================teacher page end================== */

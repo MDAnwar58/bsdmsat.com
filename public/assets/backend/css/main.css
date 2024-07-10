@@ -1,0 +1,105 @@
+/*========================sidebar with navbar start========================*/
+
+.main_navbar {
+	box-shadow: 0px 1px 3px #888888;
+	height: 57px;
+}
+
+.nav-link {
+	color: #6C757D;
+	border-radius: 5px;
+	transition: all linear .2s;
+}
+
+.nav-link:hover {
+	color: white;
+	background-color: #6C757D;
+}
+
+.active {
+	color: white;
+	background-color: #6C757D;
+}
+
+.active:hover {
+	color: white;
+}
+
+.toggler-btn {
+	border: 2px solid #6C757D;
+	background: transparent;
+	padding: 1px 5px;
+}
+
+.btn-dropdown {
+	color: #6C757D;
+}
+
+.navbar_search_from {
+	display: flex;
+}
+
+.search_btn {
+	background: transparent;
+}
+
+.hr {
+	box-shadow: 0px 0px 10px 2px #6C757D;
+}
+
+@media only screen and (max-width: 768px) {
+	.main_navbar {
+		height: 60px;
+	}
+
+	.icon i {
+		font-size: 22px;
+	}
+}
+
+/* sidebar */
+.sidebar {
+	min-height: 100vh;
+}
+
+/*========================sidebar with navbar end========================*/
+
+/*========================main content start========================*/
+.row {
+	--bs-gutter-x: 0;
+}
+
+/*========================main content end========================*/
+
+.card-header {
+	background-color: #6C757D;
+	color: white;
+}
+
+/* @media only screen and (min-width: 767px) {
+	.dataTables_info {
+		padding: 0 0 0 1rem;
+	}
+	
+	.dataTables_paginate {
+		padding: 0 1rem 0 0;
+	}
+}
+@media only screen and (min-width: 641px) {
+	.dataTables_length label {
+		padding: .5rem 0 0 1rem;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.dataTables_length label {
+		padding: .5rem 0 0 0;
+	}
+} */
+
+.dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    padding: .5rem 1rem 0 0;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_info {
+	padding: .5rem 0 0 1rem;
+}
